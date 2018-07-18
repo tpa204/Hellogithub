@@ -1,0 +1,139 @@
+li, a, ul, div, form, aside, input, label {
+    margin: 0;
+    padding: 0;
+}
+.inner-page {
+margin: 0;
+padding: 0;
+color:#000000;
+background: #f8f3f0 url("img/pattern-white.jpg")}
+.container {
+width: 940px;
+margin: 0 auto;
+padding: 0 10px;
+min-width: 960px;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+font-family: "PT Sans Narrow", "Arial", sans-serif;
+text-transform: uppercase;
+ }
+ .clearfix::after {
+clear: both;
+display: table;
+content: "";
+ }
+.inner-page {
+    margin: 0;
+    padding: 0;
+  color:#000000;
+  background: #f8f3f0 url("img/pattern-white.jpg")
+
+}
+.main-header {
+
+background-color: #000000;
+color:#ffffff;
+width: 100%;
+}
+.main-header a {
+    text-decoration: none;
+    color: #ffffff;
+display: inline-block;
+    padding: 25px 20px;
+}
+.main-navigation .logo-inner {
+  float: left;
+  width: 111px;
+  height: 20px;
+  padding-top: 22px;
+}
+.main-header ul {
+    list-style: none;
+    font-size: 0;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: top;
+    display: inline-block;
+
+}
+.main-header li {
+display: inline-block;
+}
+.main-navigation {
+
+    width: 780px;
+    float: left;
+    margin-right: 20px;
+}
+.login {
+position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: top;
+}
+.user-block {
+    margin: 0;
+    padding: 0;
+width: 140px;
+float: right;
+margin-left: auto;
+text-align: center;
+}
+.main-navigation li:hover {
+    background-color: #242424;
+}
+.user-block:hover {
+background-color: #242424;
+}
+.logo-inner img {
+    width: 111px;
+    height: 24px;
+}
+.main-navigation .logo-inner:hover {
+  background: none;
+}
+.main-navigation .active {
+  position: relative;
+  background: none;
+}
+.main-navigation .active::after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: auto;
+  left: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  bottom: 0;
+}
+.login::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 26px;
+  left: -10px;
+  background: transparent url("img/sprite.png") no-repeat;
+  background-position: -1px -210px;
+  opacity: 0.3;
+}
+.login:hover::before {
+  opacity: 1;
+}
+.login:hover {
+  background: #242424;}
+.breadcrumbs a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+}
+.breadcrumbs a::after {
+
+}
